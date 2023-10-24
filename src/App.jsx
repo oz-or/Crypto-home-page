@@ -29,39 +29,44 @@ import {
 const router = createBrowserRouter([
   {
     element: <HomePage />,
+    path: "/",
     children: [
       /* Get Started */
-      { element: <CryptoApp /> },
-      { element: <NFT /> },
-      { element: <MetalVisaCards /> },
-      { element: <Pay /> },
-      { element: <Earn /> },
+      { element: <CryptoApp />, path: "/app" },
+      { element: <NFT />, path: "/nft" },
+      { element: <MetalVisaCards />, path: "/cards" },
+      { element: <Pay />, path: "/pay" },
+      { element: <Earn />, path: "/earn" },
       /* Advanced Trading */
       {
         element: <ExchangeHome />,
+        path: "/exchange",
         children: [
-          { element: <MarginTrading /> },
-          { element: <DerivativesTrading /> },
+          { element: <MarginTrading />, path: "/trade/BTC_USD" },
+          {
+            element: <DerivativesTrading />,
+            path: "/trade/BTCUSD-PERP",
+          },
         ],
       },
-      { element: <DeFi /> },
-      { element: <PayForBusiness /> },
+      { element: <DeFi />, path: "/defi" },
+      { element: <PayForBusiness />, path: "/pay-merchant" },
       /* Company */
-      { element: <About /> },
-      { element: <Careers /> },
-      { element: <News /> },
-      { element: <Support /> },
-      { element: <Security /> },
-      { element: <Partners /> },
+      { element: <About />, path: "/about" },
+      { element: <Careers />, path: "/careers" },
+      { element: <News />, path: "/news" },
+      { element: <Support />, path: "/support" },
+      { element: <Security />, path: "/security" },
+      { element: <Partners />, path: "/partners" },
       /* Updates */
-      { element: <WhatsTrending /> },
-      { element: <ProductNews /> },
-      { element: <Events /> },
-      { element: <MarketUpdates /> },
+      { element: <WhatsTrending />, path: "/trending" },
+      { element: <ProductNews />, path: "/product-news" },
+      { element: <Events />, path: "/events" },
+      { element: <MarketUpdates />, path: "/market-updates" },
       /* Resources */
-      { element: <University /> },
-      { element: <NFTDeepDives /> },
-      { element: <ResearchAndAnalysis /> },
+      { element: <University />, path: "/university" },
+      { element: <NFTDeepDives />, path: "/nft-stories" },
+      { element: <ResearchAndAnalysis />, path: "/research" },
     ],
   },
 ]);
