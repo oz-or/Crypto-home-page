@@ -1,9 +1,9 @@
-function Cronos() {
+function Cronos({ height, width }) {
   return (
     <div>
       <svg
-        width="1em"
-        height="1em"
+        width={width}
+        height={height}
         viewBox="0 0 24 25"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -21,12 +21,12 @@ function Cronos() {
           <path
             d="M12.003 23.042l9.163-5.27V7.233l-9.163-5.274v3.128l6.448 3.707v7.421l-6.448 3.704v3.124z"
             fill="url(#cro_svg__paint0_linear_10116_96806)"
-            style="mix-blend-mode: multiply;"
+            style={{ mixBlendMode: "multiply" }}
           ></path>
           <path
             d="M11.998 1.959L2.835 7.228v10.541l9.163 5.273v-3.128L5.55 16.207v-7.42l6.448-3.704V1.959z"
             fill="url(#cro_svg__paint1_linear_10116_96806)"
-            style="mix-blend-mode: multiply;"
+            style={{ mixBlendMode: "multiply" }}
           ></path>
           <path
             d="M16.28 14.963L12 17.423l-4.284-2.46V10.04l4.283-2.463 4.28 2.463-1.781 1.025-2.499-1.438-2.498 1.438v2.87l2.498 1.438 2.499-1.438 1.781 1.028z"

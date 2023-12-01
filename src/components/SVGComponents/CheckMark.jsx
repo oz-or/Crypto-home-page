@@ -1,9 +1,9 @@
-function CheckMark() {
+function CheckMark({ height, width }) {
   return (
     <div>
       <svg
-        width="1em"
-        height="1em"
+        width={width}
+        height={height}
         viewBox="0 0 14 10"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

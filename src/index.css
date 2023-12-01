@@ -6,19 +6,51 @@ html,
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
+  color: white;
+  background: #000;
 
-  --blackBlueGradientBuyCrypto: radial-gradient(123.14% 44.41% at 77.00% 45.58%, rgba(17, 153, 250, 0.20) 0%, rgba(17, 153, 250, 0.00) 100%),
+
+}
+
+.background {
+
+  background: radial-gradient(74.93% 41.79% at 50.13% 69.2%, #3763C1 0%, #23469D 19.68%, #142B72 38.97%, #0A1549 63.53%, #020A30 79.56%, #010118 100%)
+}
+
+.blackBlueGradientBuyCrypto {
+  background: radial-gradient(123.14% 44.41% at 77.00% 45.58%, rgba(17, 153, 250, 0.20) 0%, rgba(17, 153, 250, 0.00) 100%),
     radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.00) 100%),
-    #002F61;
+    #002F61
+}
 
-  --blackBlueGradientPriceAlerts: radial-gradient(175.99% 129.34% at -0.00% 100.00%, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.00) 100%),
-    var(rgba(17, 153, 250, 0.20), #002F61);
+.blackBlueGradientPriceAlerts {
+  background: radial-gradient(175.99% 129.34% at -0.00% 100.00%, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.00) 100%),
+    var(--blue-700, #002F61)
+}
 
-  --blackBlueGradientRecurringBuy: radial-gradient(276.49% 100% at 50.11% 100.00%, rgba(17, 153, 250, 0.40) 0%, rgba(17, 153, 250, 0.00) 100%),
+.blackBlueGradientRecurringBuy {
+  background: radial-gradient(276.49% 100% at 50.11% 100.00%, rgba(17, 153, 250, 0.40) 0%, rgba(17, 153, 250, 0.00) 100%),
     linear-gradient(0deg, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.40) 100%),
-    #002F61;
+    #002F61
+}
 
-  --blackBlueGradientOnChainStaking: radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.4) 0%, rgba(1, 1, 24, 0) 100%),
+.blackBlueGradientOnChainStaking {
+  background:
+    radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.4) 0%, rgba(1, 1, 24, 0) 100%),
     radial-gradient(84.57% 52.26% at 78.22% 43.54%, rgba(17, 153, 250, 0.4) 0%, rgba(17, 153, 250, 0) 100%),
-    rgb(0, 47, 97);
+    rgb(0, 47, 97)linear-gradient-hero
+}
+
+ol li {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+.perspective-class {
+  perspective: 1000px;
+}
+
+.linear-gradient-hero {
+  background: linear-gradient(0deg, rgb(1, 1, 24) 0%, rgba(1, 1, 24, 0.5) 50.07%);
+
 }

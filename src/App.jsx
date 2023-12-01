@@ -25,54 +25,59 @@ import {
   University,
   WhatsTrending,
 } from "./components/pages/importPages";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 const router = createBrowserRouter([
   {
     element: <HomePage />,
     path: "/",
+  },
+  /* Get Started */
+  { element: <CryptoApp />, path: "/app" },
+  { element: <NFT />, path: "/nft" },
+  { element: <MetalVisaCards />, path: "/cards" },
+  { element: <Pay />, path: "/pay" },
+  { element: <Earn />, path: "/earn" },
+  /* Advanced Trading */
+
+  {
+    element: <ExchangeHome />,
+    path: "/exchange",
     children: [
-      /* Get Started */
-      { element: <CryptoApp />, path: "/app" },
-      { element: <NFT />, path: "/nft" },
-      { element: <MetalVisaCards />, path: "/cards" },
-      { element: <Pay />, path: "/pay" },
-      { element: <Earn />, path: "/earn" },
-      /* Advanced Trading */
+      { element: <MarginTrading />, path: "/exchange/trade/BTC_USD" },
       {
-        element: <ExchangeHome />,
-        path: "/exchange",
-        children: [
-          { element: <MarginTrading />, path: "/trade/BTC_USD" },
-          {
-            element: <DerivativesTrading />,
-            path: "/trade/BTCUSD-PERP",
-          },
-        ],
+        element: <DerivativesTrading />,
+        path: "/exchange/trade/BTCUSD-PERP",
       },
-      { element: <DeFi />, path: "/defi" },
-      { element: <PayForBusiness />, path: "/pay-merchant" },
-      /* Company */
-      { element: <About />, path: "/about" },
-      { element: <Careers />, path: "/careers" },
-      { element: <News />, path: "/news" },
-      { element: <Support />, path: "/support" },
-      { element: <Security />, path: "/security" },
-      { element: <Partners />, path: "/partners" },
-      /* Updates */
-      { element: <WhatsTrending />, path: "/trending" },
-      { element: <ProductNews />, path: "/product-news" },
-      { element: <Events />, path: "/events" },
-      { element: <MarketUpdates />, path: "/market-updates" },
-      /* Resources */
-      { element: <University />, path: "/university" },
-      { element: <NFTDeepDives />, path: "/nft-stories" },
-      { element: <ResearchAndAnalysis />, path: "/research" },
     ],
   },
+
+  { element: <DeFi />, path: "/defi" },
+  { element: <PayForBusiness />, path: "/pay-merchant" },
+  /* Company */
+  { element: <About />, path: "/about" },
+  { element: <Careers />, path: "/careers" },
+  { element: <News />, path: "/news" },
+  { element: <Support />, path: "/support" },
+  { element: <Security />, path: "/security" },
+  { element: <Partners />, path: "/partners" },
+  /* Updates */
+  { element: <WhatsTrending />, path: "/trending" },
+  { element: <ProductNews />, path: "/product-news" },
+  { element: <Events />, path: "/events" },
+  { element: <MarketUpdates />, path: "/market-updates" },
+  /* Resources */
+  { element: <University />, path: "/university" },
+  { element: <NFTDeepDives />, path: "/nft-stories" },
+  { element: <ResearchAndAnalysis />, path: "/research" },
 ]);
 
 function App() {
-  return <RouterProvider route={router} />;
+  return (
+    <ParallaxProvider>
+      <RouterProvider router={router} />
+    </ParallaxProvider>
+  );
 }
 
 export default App;
