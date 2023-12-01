@@ -9,7 +9,7 @@ function LessThan768({ whichIsOpen, setWhichIsOpen }) {
 
         <div>
           <img
-            src="public\images\homePage\logo-footer.svg"
+            src="../../../../../public/images/homePage/logo-footer.svg"
             alt="CDC logo"
             className="h-[30px] mb-12"
           />
@@ -228,7 +228,7 @@ function LessThan768({ whichIsOpen, setWhichIsOpen }) {
           </h2>
           <button className="flex bg-[#0577da] rounded-3xl py-3 w-full justify-center gap-x-2 items-center">
             <img
-              src="public\images\homePage\play_store.svg"
+              src="../../../../../public/images/homePage/play_store.svg"
               alt="Download the Crypto app from the play store"
               className="h-[18px]"
             />
@@ -239,41 +239,41 @@ function LessThan768({ whichIsOpen, setWhichIsOpen }) {
         <div className="grid grid-cols-4 mb-16 justify-items-center gap-x-3">
           <div className="flex flex-col gap-y-[12px]">
             <SocialMediaIcon
-              src="public\images\homePage\twitter.svg"
+              src="../../../../../public/images/homePage/twitter.svg"
               alt="Twitter"
             />
             <SocialMediaIcon
-              src="public\images\homePage\discord.svg"
+              src="../../../../../public/images/homePage/discord.svg"
               alt="Discord"
             />
           </div>
           <div className="flex flex-col gap-y-[12px] ">
             <SocialMediaIcon
-              src="public\images\homePage\instagram.svg"
+              src="../../../../../public/images/homePage/instagram.svg"
               alt="Instagram"
             />
             <SocialMediaIcon
-              src="public\images\homePage\linkedin.svg"
+              src="../../../../../public/images/homePage/linkedin.svg"
               alt="LinkedIn"
             />
           </div>
           <div className="flex flex-col gap-y-[12px]">
             <SocialMediaIcon
-              src="public\images\homePage\threads.svg"
+              src="../../../../../public/images/homePage/threads.svg"
               alt="Threads"
             />
             <SocialMediaIcon
-              src="public\images\homePage\reddit.svg"
+              src="../../../../../public/images/homePage/reddit.svg"
               alt="Reddit"
             />
           </div>
           <div className="flex flex-col gap-y-[12px]">
             <SocialMediaIcon
-              src="public\images\homePage\facebook.svg"
+              src="../../../../../public/images/homePage/facebook.svg"
               alt="Facebook"
             />
             <SocialMediaIcon
-              src="public\images\homePage\telegram.svg"
+              src="../../../../../public/images/homePage/telegram.svg"
               alt="Telegram"
             />
           </div>

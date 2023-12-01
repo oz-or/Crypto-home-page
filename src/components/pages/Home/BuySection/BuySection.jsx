@@ -47,7 +47,7 @@ function BuySection() {
                 </div>
 
                 <img
-                  src="public\images\homePage\phone-small.webp"
+                  src="../../../../../public/images/homePage/phone-small.webp"
                   alt="Hand-held phone with Crypto.com App open to the buy bitcoin page"
                   className="h-56 1128:h-64"
                 />
@@ -80,7 +80,7 @@ function BuySection() {
                 </div>
                 <div className="flex justify-center mt-10 1128:mt-0">
                   <img
-                    src="public\images\homePage\phone-half.webp"
+                    src="../../../../../public/images/homePage/phone-half.webp"
                     alt="Phone with Crypto.com App open on recurring buy page."
                     className="w-[293px] 1128:w-[370px]"
                   />
@@ -100,7 +100,7 @@ function BuySection() {
                 </div>
 
                 <img
-                  src="public\images\homePage\on-chain-staking.webp"
+                  src="../../../../../public/images/homePage/on-chain-staking.webp"
                   alt="On-chain staking coin."
                   className="z-0 w-auto h-40 ml-[-100px] 1128:w-auto 1128:h-48"
                 />
@@ -125,7 +125,7 @@ function BuySection() {
                 the app
               </p>
               <img
-                src="public\images\homePage\QR-big.webp"
+                src="../../../../../public/images/homePage/QR-big.webp"
                 alt="Download app QR code"
                 className="w-[88px] h-auto"
               />

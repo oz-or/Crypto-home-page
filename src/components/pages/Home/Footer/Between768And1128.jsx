@@ -22,7 +22,7 @@ function Between768And1128() {
             </span>
             <button className="flex bg-[#0577da] rounded-3xl py-3 w-full justify-center gap-x-2 items-center">
               <img
-                src="public\images\homePage\play_store.svg"
+                src="../../../../../public/images/homePage/play_store.svg"
                 alt="Download the Crypto app from the play store"
                 className="h-[18px]"
               />
@@ -31,7 +31,7 @@ function Between768And1128() {
             <span className="text-xl font-semibold">Or</span>
             <div className="p-[32px] pb-4 w-[200px] border border-[#1199f980] rounded-[20px] flex flex-col items-center">
               <img
-                src="public\images\homePage\qrCode-big.webp"
+                src="../../../../../public/images/homePage/qrCode-big.webp"
                 alt="qrCode"
                 className="w-[121px] mb-4"
               />

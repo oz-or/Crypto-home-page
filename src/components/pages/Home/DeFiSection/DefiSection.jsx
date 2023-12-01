@@ -9,7 +9,7 @@ function DefiSection() {
   return (
     <section
       id="defi-section"
-      className="flex flex-col justify-center py-20  1128:items-center bg-mainTextClr 1128:py-40"
+      className="flex flex-col justify-center py-20 1128:items-center bg-mainTextClr 1128:py-40"
     >
       <div className="flex flex-col px-8 768:px-14 768:flex-row 1128:w-[1050px] 1280:w-[1280px]">
         <div className="flex flex-col items-center text-center 768:items-start 768:text-start 768:w-full 768:mt-16 1128:mt-20 1280:mt-40">
@@ -75,7 +75,7 @@ function DefiSection() {
             viewport={{ amount: 0.4 }}
             whileInView={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 0.5 }}
-            src="public\images\homePage\defi.webp"
+            src="../../../../../public/images/homePage/defi.webp"
             alt="iPhone showing DeFi Earn page of the Crypto.com App"
             className="h-[75%] 768:mt-5 1128:h-auto 1128:w-[460px] 1280:w-[800px]"
           />
