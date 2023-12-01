@@ -14,7 +14,7 @@ function StickyCTA() {
         >
           <button className="flex bg-[#0577da] rounded-3xl py-3 w-full justify-center gap-x-2 items-center">
             <img
-              src="public\images\homePage\play_store.svg"
+              src="../../../../public/images/homePage/play_store.svg"
               alt="Download the Crypto app from the play store"
               className="h-[18px]"
             />

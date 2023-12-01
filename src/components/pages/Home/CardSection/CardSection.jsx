@@ -14,11 +14,11 @@ function CardSection() {
         type="video/mp4"
         className="z-0 object-cover w-full h-full brightness-50"
       >
-        <source src="public\videos\homePage\Cards-video.mp4" />
+        <source src="../../../../../public/videos/homePage/Cards-video.mp4" />
         Sorry, your browser doesn&apos;t support embedded videos.
       </video>
 
-      <div className="absolute z-10 flex flex-col items-center  text-center">
+      <div className="absolute z-10 flex flex-col items-center text-center">
         <motion.h2
           initial={{ opacity: 0, translateY: 20 }}
           viewport={{ amount: "all" }}

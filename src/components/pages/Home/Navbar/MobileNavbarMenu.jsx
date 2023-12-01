@@ -22,7 +22,10 @@ function MobileNavbarMenu({ toggleIsOpen, isOpen }) {
     >
       <div className="flex items-center justify-between px-8 py-[18px] ">
         <div className="flex gap-x-2">
-          <img src="public\images\homePage\global-round.svg" alt="Global" />
+          <img
+            src="../../../../../public/images/homePage/global-round.svg"
+            alt="Global"
+          />
           <div className="flex items-center">
             <span>EEA</span>
             <div className="w-[1px] h-4 bg-black mx-2"></div>
@@ -32,7 +35,7 @@ function MobileNavbarMenu({ toggleIsOpen, isOpen }) {
 
         <motion.img
           animate={isOpen ? "open" : "closed"}
-          src="public\images\homePage\close.svg"
+          src="../../../../../public/images/homePage/close.svg"
           alt="Close Menu"
           onClick={() => toggleIsOpen()}
         />
@@ -190,7 +193,7 @@ function MobileNavbarMenu({ toggleIsOpen, isOpen }) {
       <div className="px-8 py-2">
         <button className="flex border-[#0b1426] border py-[10px] px-5 gap-x-2 rounded-[3px] items-center">
           <img
-            src="public\images\homePage\download-app.svg"
+            src="../../../../../public/images/homePage/download-app.svg"
             alt="Download Icon"
           />
           Download App

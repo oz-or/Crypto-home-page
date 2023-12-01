@@ -134,7 +134,7 @@ function GreaterThan1128() {
 
           <div className="p-[16px] pb-4  border border-[#1199f980] rounded-[20px] flex flex-col items-center">
             <img
-              src="public\images\homePage\qrCode-big.webp"
+              src="../../../../../public/images/homePage//qrCode-big.webp"
               alt="qrCode"
               className="w-[121px] mb-4"
             />
