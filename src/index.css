@@ -1,69 +1,56 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+html,
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: white;
+  background: #000;
+
+
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.background {
+
+  background: radial-gradient(74.93% 41.79% at 50.13% 69.2%, #3763C1 0%, #23469D 19.68%, #142B72 38.97%, #0A1549 63.53%, #020A30 79.56%, #010118 100%)
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.blackBlueGradientBuyCrypto {
+  background: radial-gradient(123.14% 44.41% at 77.00% 45.58%, rgba(17, 153, 250, 0.20) 0%, rgba(17, 153, 250, 0.00) 100%),
+    radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.00) 100%),
+    #002F61
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.blackBlueGradientPriceAlerts {
+  background: radial-gradient(175.99% 129.34% at -0.00% 100.00%, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.00) 100%),
+    var(--blue-700, #002F61)
+}
+
+.blackBlueGradientRecurringBuy {
+  background: radial-gradient(276.49% 100% at 50.11% 100.00%, rgba(17, 153, 250, 0.40) 0%, rgba(17, 153, 250, 0.00) 100%),
+    linear-gradient(0deg, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.40) 100%),
+    #002F61
+}
+
+.blackBlueGradientOnChainStaking {
+  background:
+    radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.4) 0%, rgba(1, 1, 24, 0) 100%),
+    radial-gradient(84.57% 52.26% at 78.22% 43.54%, rgba(17, 153, 250, 0.4) 0%, rgba(17, 153, 250, 0) 100%),
+    rgb(0, 47, 97)linear-gradient-hero
+}
+
+ol li {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+.perspective-class {
+  perspective: 1000px;
+}
+
+.linear-gradient-hero {
+  background: linear-gradient(0deg, rgb(1, 1, 24) 0%, rgba(1, 1, 24, 0.5) 50.07%);
+
 }
