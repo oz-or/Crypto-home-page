@@ -273,7 +273,7 @@ function LessThan768({ whichIsOpen, setWhichIsOpen }) {
               alt="Facebook"
             />
             <SocialMediaIcon
-              src="../../../../../public/images/homePage/telegram.svg"
+              src="../../../../../public/images/homePage/telegram.svg "
               alt="Telegram"
             />
           </div>
