@@ -6,9 +6,6 @@ import { useScroll, motion, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 function HeroSection() {
-  //TODO: Add the layers(shades) to the bg video
-  //TODO: Tilt the phone on scroll
-
   const window = useWindowSize();
 
   const targetRef = useRef(null);
@@ -31,10 +28,11 @@ function HeroSection() {
         autoPlay
         loop
         playsInline
+        muted
         type="video/mp4"
         className="h-[508px] 1128:h-[575px] w-full object-cover brightness-[30%] mb-32 "
       >
-        <source src="../../../../../videos/homePage/Hero_Video.mp4" />
+        <source src="/videos/homePage/Hero_Video.mp4" />
         Sorry, your browser doesn&apos;t support embedded videos.
       </video>
 

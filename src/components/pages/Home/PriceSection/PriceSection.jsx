@@ -115,7 +115,7 @@ function PriceSection() {
                 <span className=" text-pClr 1128:text-xl">ETH</span>
               </div>
 
-              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[27px] 1128:translate-x-10">
+              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[27px] 1128:translate-x-[35px]">
                 $1,783.65
               </span>
               <span className="text-xs 1128:translate-x-[94px] 768:translate-x-[63px] text-greenishBlue 1128:text-lg">
@@ -146,7 +146,7 @@ function PriceSection() {
                 <span className=" text-pClr 1128:text-xl">ADA</span>
               </div>
 
-              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[35px] 1128:translate-x-10">
+              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[35px] 1128:translate-x-11">
                 $0.289757
               </span>
               <span className="text-xs 1128:translate-x-[86px] 768:translate-x-[57px] text-greenishBlue 1128:text-lg">
@@ -177,7 +177,7 @@ function PriceSection() {
                 <span className="text-pClr 1128:text-xl">DOGE</span>
               </div>
 
-              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[18px] 1128:translate-x-10">
+              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[18px] 1128:translate-x-[22px]">
                 $0.070451
               </span>
               <span className="text-xs 1128:translate-x-[71px] 768:translate-x-[46px] text-greenishBlue 1128:text-lg">
@@ -208,10 +208,10 @@ function PriceSection() {
                 <span className=" text-pClr 1128:text-xl">DOT</span>
               </div>
 
-              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[22px] 1128:translate-x-10">
+              <span className="text-[22px] font-semibold text-mainTextClr 1128:text-3xl 768:translate-x-[22px] 1128:translate-x-6">
                 $4.16
               </span>
-              <span className="text-xs 1128:translate-x-[132px] 768:translate-x-[90px] text-greenishBlue 1128:text-lg">
+              <span className="text-xs 1128:translate-x-[130px] 768:translate-x-[90px] text-greenishBlue 1128:text-lg">
                 -0.71%
               </span>
 

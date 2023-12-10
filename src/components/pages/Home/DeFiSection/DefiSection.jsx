@@ -75,7 +75,7 @@ function DefiSection() {
             viewport={{ amount: 0.4 }}
             whileInView={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 0.5 }}
-            src="../../../../../public/images/homePage/defi.webp"
+            src="/images/homePage/defi.webp"
             alt="iPhone showing DeFi Earn page of the Crypto.com App"
             className="h-[75%] 768:mt-5 1128:h-auto 1128:w-[460px] 1280:w-[800px]"
           />

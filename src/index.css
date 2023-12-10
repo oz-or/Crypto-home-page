@@ -35,10 +35,9 @@ body {
 }
 
 .blackBlueGradientOnChainStaking {
-  background:
-    radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.4) 0%, rgba(1, 1, 24, 0) 100%),
+  background: radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.4) 0%, rgba(1, 1, 24, 0) 100%),
     radial-gradient(84.57% 52.26% at 78.22% 43.54%, rgba(17, 153, 250, 0.4) 0%, rgba(17, 153, 250, 0) 100%),
-    rgb(0, 47, 97)linear-gradient-hero
+    rgb(0, 47, 97)
 }
 
 ol li {

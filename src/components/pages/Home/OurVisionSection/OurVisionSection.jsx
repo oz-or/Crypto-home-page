@@ -35,7 +35,7 @@ function OurVisionSection() {
           viewport={{ amount: 0.4 }}
           whileInView={{ opacity: 1, translateY: 0 }}
           transition={{ duration: 0.5 }}
-          src="../../../../../public/images/homePage/crypto-com-logo.webp"
+          src="/images/homePage/crypto-com-logo.webp"
           alt="Logo of Crypto.com"
           className="my-3 w-[336px] 768:w-[464px] 768:mb-0 1128:w-[581px]"
         />

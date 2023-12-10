@@ -2,8 +2,6 @@ import RightArrow from "../../../SVGComponents/RightArrow";
 import { motion } from "framer-motion";
 
 function EarnSection() {
-  //TODO: The StickyCTA should only go as far as the end of this section
-
   return (
     <section
       id="earn-section"
@@ -55,7 +53,7 @@ function EarnSection() {
               initial={{ opacity: 0, translateY: 20 }}
               whileInView={{ opacity: 1, translateY: 0 }}
               transition={{ duration: 0.5 }}
-              src="../../../../../public/images/homePage/earn-phone.webp"
+              src="/images/homePage/earn-phone.webp"
               alt="iPhone showing Crypto Earn page of the Crypto.com App"
               className="z-10"
             />
@@ -66,7 +64,7 @@ function EarnSection() {
               initial={{ opacity: 0, translateY: 20 }}
               whileInView={{ opacity: 1, translateY: 0 }}
               transition={{ duration: 0.5 }}
-              src="../../../../../public/images/homePage/earn-notif-1.webp"
+              src="/images/homePage/earn-notif-1.webp"
               alt="Pop-up notification from the Crypto.com App that tells you your staking rewards"
               className="z-10 object-contain mt-4 1128:mt-6 ml-[56%]"
             />
@@ -77,7 +75,7 @@ function EarnSection() {
               initial={{ opacity: 0, translateY: 20 }}
               whileInView={{ opacity: 1, translateY: 0 }}
               transition={{ duration: 0.5 }}
-              src="../../../../../public/images/homePage/earn-notif-2.webp"
+              src="/images/homePage/earn-notif-2.webp"
               alt="Pop-up notification from the Crypto.com App that tells you your staking rewards"
               className="z-10 object-contain mt-[41%] 1128:mt-[145px] ml-[65%]"
             />

@@ -11,10 +11,11 @@ function CardSection() {
         autoPlay
         loop
         playsInline
+        muted
         type="video/mp4"
         className="z-0 object-cover w-full h-full brightness-50"
       >
-        <source src="../../../../../public/videos/homePage/Cards-video.mp4" />
+        <source src="/videos/homePage/Cards-video.mp4" />
         Sorry, your browser doesn&apos;t support embedded videos.
       </video>
 

@@ -24,7 +24,7 @@ function Footer() {
           <div className="flex items-center mb-16">
             <div>
               <img
-                src="../../../../../public/images/homePage/logo-footer.svg"
+                src="/images/homePage/logo-footer.svg"
                 alt="CDC logo"
                 className="h-[30px] 1128:h-10"
               />
@@ -33,38 +33,35 @@ function Footer() {
 
             <div className="flex gap-x-2 1128:gap-x-3">
               <SocialMediaIcon
-                src="../../../../../public/images/homePage/twitter.svg"
+                src="/images/homePage/twitter.svg"
                 alt="Twitter"
               />
               <SocialMediaIcon
-                src="../../../../../public/images/homePage/discord.svg"
+                src="/images/homePage/discord.svg"
                 alt="Discord"
               />
 
               <SocialMediaIcon
-                src="../../../../../public/images/homePage/instagram.svg"
+                src="/images/homePage/instagram.svg"
                 alt="Instagram"
               />
               <SocialMediaIcon
-                src="../../../../../public/images/homePage/linkedin.svg"
+                src="/images/homePage/linkedin.svg"
                 alt="LinkedIn"
               />
 
               <SocialMediaIcon
-                src="../../../../../public/images/homePage/threads.svg"
+                src="/images/homePage/threads.svg"
                 alt="Threads"
               />
-              <SocialMediaIcon
-                src="../../../../../public/images/homePage/reddit.svg"
-                alt="Reddit"
-              />
+              <SocialMediaIcon src="/images/homePage/reddit.svg" alt="Reddit" />
 
               <SocialMediaIcon
-                src="../../../../../public/images/homePage/facebook.svg"
+                src="/images/homePage/facebook.svg"
                 alt="Facebook"
               />
               <SocialMediaIcon
-                src="../../../../../public/images/homePage/telegram.svg"
+                src="/images/homePage/telegram.svg"
                 alt="Telegram"
               />
             </div>
@@ -118,35 +115,35 @@ function Footer() {
               <div className="flex mt-3 1128:flex-col 1128:gap-y-4">
                 <div className="flex 1128:gap-x-3">
                   <img
-                    src="../../../../../public/images/homePage/AICPA-certificate.webp"
+                    src="/images/homePage/AICPA-certificate.webp"
                     alt="AICPA SOC security logo"
                     className="w-auto h-[50px]"
                   />
                   <img
-                    src="../../../../../public/images/homePage/SGS-certificate-first.webp"
+                    src="/images/homePage/SGS-certificate-first.webp"
                     alt="SGS ISO 27701 security logo"
                     className="w-auto h-[50px]"
                   />
                   <img
-                    src="../../../../../public/images/homePage/SGS-certificate-second.webp"
+                    src="/images/homePage/SGS-certificate-second.webp"
                     alt="SGS ISO 27001 security logo"
                     className="w-auto h-[50px]"
                   />
                 </div>
                 <div className="flex">
                   <img
-                    src="../../../../../public/images/homePage/PCI-certificate.webp"
+                    src="/images/homePage/PCI-certificate.webp"
                     alt="PCi DSS certified logo"
                     className="w-auto h-[50px]"
                   />
                   <img
-                    src="../../../../../public/images/homePage/BSI-certificate.webp"
+                    src="/images/homePage/BSI-certificate.webp"
                     alt="bsi ISO 22301 certified logo"
                     className="w-auto h-[50px]"
                   />
                 </div>
                 <img
-                  src="../../../../../public/images/homePage/CYBER-certificate.webp"
+                  src="/images/homePage/CYBER-certificate.webp"
                   alt="CSA Cyber Trust logo"
                   className="w-auto h-[50px] ml-2"
                 />
